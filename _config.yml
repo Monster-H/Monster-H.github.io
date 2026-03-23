@@ -28,6 +28,9 @@ remote_theme: mmistakes/minimal-mistakes@4.28.0
 paginate: 5
 show_date: true
 
+plugins:
+  - jekyll-include-cache
+
 # Defaults
 defaults:
   - scope:
