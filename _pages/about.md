@@ -3,10 +3,6 @@ title: "关于我"
 permalink: /about/
 layout: single
 author_profile: true
-toc: true
-header:
-  overlay_image: /images/header.jpg
-  og_image: /images/avatar.jpg
 ---
 
 ## 👋 你好
