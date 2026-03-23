@@ -2,13 +2,9 @@
 title: "项目作品"
 permalink: /portfolio/
 layout: single
-collection: portfolio
-entries_layout: grid
-sort_by: date
-sort_order: reverse
+author_profile: false
+classes: wide
 ---
-
-这里展示我的一些个人项目和作品。
 
 ## 🏆 代表作
 
