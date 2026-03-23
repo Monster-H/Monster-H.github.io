@@ -23,15 +23,19 @@ author:
       url: "mailto:monster@example.com"
       icon: "fas fa-envelope"
 
+# Collections
+collections:
+  pages:
+    output: true
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes@4.28.0
 paginate: 5
 show_date: true
 
-gems:
+plugins:
   - jekyll-include-cache
-  - jekyll-paginate
 
 # SEO & Social
 twitter:
@@ -49,19 +53,11 @@ defaults:
       read_time: true
       author_profile: true
       share: true
-      comments: true
   - scope:
       path: ""
       type: pages
     values:
       layout: single
-      author_profile: true
-
-# Optional features
-analytics:
-  provider: google
-  google:
-    tracking_id: ""
 
 # Footer
 footer:
