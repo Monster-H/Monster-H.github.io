@@ -1,11 +1,11 @@
-# Welcome to Minimal Mistakes
+# Welcome to Monster's Blog
 
 minimal_mistakes_skin: "air"
 
 # Site settings
 title: Monster's Blog
 name: Monster
-description: 技术博客，记录学习与思考
+description: 技术博客 | 记录学习与思考
 url: https://monster-h.github.io
 repository: Monster-H/Monster-H.github.io
 
@@ -22,6 +22,15 @@ author:
       url: "mailto:monster@example.com"
       icon: "fas fa-envelope"
 
+# Navigation
+navigation:
+  - title: "首页"
+    url: /
+  - title: "关于"
+    url: /about/
+  - title: "标签"
+    url: /tags/
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes@4.28.0
@@ -30,6 +39,12 @@ show_date: true
 
 plugins:
   - jekyll-include-cache
+
+# SEO & Social
+twitter:
+  username: Monster-H
+github:
+  username: Monster-H
 
 # Defaults
 defaults:
@@ -41,3 +56,23 @@ defaults:
       read_time: true
       author_profile: true
       share: true
+      comments: true
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# Optional features
+analytics:
+  provider: google
+  google:
+    tracking_id: ""
+
+# Footer
+footer:
+  links:
+    - label: "GitHub"
+      url: https://github.com/Monster-H
+      icon: fab fa-github
