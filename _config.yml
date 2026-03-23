@@ -1,0 +1,40 @@
+# Welcome to Minimal Mistakes
+
+minimal_mistakes_skin: "air"
+
+# Site settings
+title: Monster's Blog
+name: Monster
+description: 技术博客，记录学习与思考
+url: https://monster-h.github.io
+repository: Monster-H/Monster-H.github.io
+
+# Author settings
+author:
+  name: Monster
+  bio: 热爱技术，喜欢折腾
+  avatar: /images/avatar.jpg
+  links:
+    - label: "GitHub"
+      url: "https://github.com/Monster-H"
+      icon: "fab fa-github"
+    - label: "Email"
+      url: "mailto:monster@example.com"
+      icon: "fas fa-envelope"
+
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes@4.28.0
+paginate: 5
+show_date: true
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      read_time: true
+      author_profile: true
+      share: true
