@@ -37,7 +37,7 @@ remote_theme: mmistakes/minimal-mistakes@4.28.0
 paginate: 5
 show_date: true
 
-plugins:
+gems:
   - jekyll-include-cache
 
 # SEO & Social
